@@ -58,8 +58,11 @@
   <ItemGroup>
     <Compile Include="BLL\IRepository.cs" />
     <Compile Include="BLL\RepositorioBase.cs" />
+    <Compile Include="BLL\ServicioRepositorio.cs" />
     <Compile Include="DAL\Contexto.cs" />
     <Compile Include="Entidades\Categorias.cs" />
+    <Compile Include="Entidades\ServicioDetalles.cs" />
+    <Compile Include="Entidades\Factura.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -98,9 +98,9 @@ namespace Parcial2_AP1.BLL
                 _contexto.Entry(entity).State = EntityState.Modified;
                 paso = _contexto.SaveChanges() > 0;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                throw;
+               // throw;
             }
 
             return paso;

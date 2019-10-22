@@ -22,7 +22,7 @@ namespace Parcial2_AP1
         private void ConsultasToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Consultas ca = new Consultas();
-            ca.MdiParent = this;
+           // ca.MdiParent = this;
             ca.Show();
 
         }
@@ -30,14 +30,14 @@ namespace Parcial2_AP1
         private void RegistroCategoriaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             RCategorias rc = new RCategorias();
-            rc.MdiParent = this;
+           // rc.MdiParent = this;
             rc.Show();
         }
 
         private void RegistroNToolStripMenuItem_Click(object sender, EventArgs e)
         {
             RDetallecs rd = new RDetallecs();
-            rd.MdiParent = this;
+           // rd.MdiParent = this;
             rd.Show();
         }
     }

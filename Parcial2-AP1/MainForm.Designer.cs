@@ -30,9 +30,9 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.registrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.consultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.registroCategoriaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.registroNToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,7 +45,7 @@
             this.consultasToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 33);
+            this.menuStrip1.Size = new System.Drawing.Size(1134, 33);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -58,17 +58,10 @@
             this.registrosToolStripMenuItem.Size = new System.Drawing.Size(101, 29);
             this.registrosToolStripMenuItem.Text = "Registros";
             // 
-            // consultasToolStripMenuItem
-            // 
-            this.consultasToolStripMenuItem.Name = "consultasToolStripMenuItem";
-            this.consultasToolStripMenuItem.Size = new System.Drawing.Size(105, 29);
-            this.consultasToolStripMenuItem.Text = "Consultas";
-            this.consultasToolStripMenuItem.Click += new System.EventHandler(this.ConsultasToolStripMenuItem_Click);
-            // 
             // registroCategoriaToolStripMenuItem
             // 
             this.registroCategoriaToolStripMenuItem.Name = "registroCategoriaToolStripMenuItem";
-            this.registroCategoriaToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.registroCategoriaToolStripMenuItem.Size = new System.Drawing.Size(260, 34);
             this.registroCategoriaToolStripMenuItem.Text = "Registro Categoria";
             this.registroCategoriaToolStripMenuItem.Click += new System.EventHandler(this.RegistroCategoriaToolStripMenuItem_Click);
             // 
@@ -76,14 +69,21 @@
             // 
             this.registroNToolStripMenuItem.Name = "registroNToolStripMenuItem";
             this.registroNToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
-            this.registroNToolStripMenuItem.Text = "Registro N";
+            this.registroNToolStripMenuItem.Text = "Registro Factura";
             this.registroNToolStripMenuItem.Click += new System.EventHandler(this.RegistroNToolStripMenuItem_Click);
+            // 
+            // consultasToolStripMenuItem
+            // 
+            this.consultasToolStripMenuItem.Name = "consultasToolStripMenuItem";
+            this.consultasToolStripMenuItem.Size = new System.Drawing.Size(105, 29);
+            this.consultasToolStripMenuItem.Text = "Consultas";
+            this.consultasToolStripMenuItem.Click += new System.EventHandler(this.ConsultasToolStripMenuItem_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1134, 632);
             this.Controls.Add(this.menuStrip1);
             this.Name = "Form1";
             this.Text = "Menu";

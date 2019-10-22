@@ -37,8 +37,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.CriteriotextBox = new System.Windows.Forms.TextBox();
             this.Consultarbutton = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.ConsultadataGridView = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.ConsultadataGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -118,23 +118,24 @@
             this.Consultarbutton.TabIndex = 8;
             this.Consultarbutton.Text = "Consultar";
             this.Consultarbutton.UseVisualStyleBackColor = true;
+            this.Consultarbutton.Click += new System.EventHandler(this.Consultarbutton_Click);
             // 
-            // dataGridView1
+            // ConsultadataGridView
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(16, 55);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(1026, 499);
-            this.dataGridView1.TabIndex = 9;
+            this.ConsultadataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.ConsultadataGridView.Location = new System.Drawing.Point(16, 55);
+            this.ConsultadataGridView.Name = "ConsultadataGridView";
+            this.ConsultadataGridView.RowHeadersWidth = 62;
+            this.ConsultadataGridView.RowTemplate.Height = 28;
+            this.ConsultadataGridView.Size = new System.Drawing.Size(1026, 499);
+            this.ConsultadataGridView.TabIndex = 9;
             // 
             // Consultas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1054, 566);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.ConsultadataGridView);
             this.Controls.Add(this.Consultarbutton);
             this.Controls.Add(this.CriteriotextBox);
             this.Controls.Add(this.label4);
@@ -146,7 +147,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Consultas";
             this.Text = "Consultas";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ConsultadataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -163,6 +164,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox CriteriotextBox;
         private System.Windows.Forms.Button Consultarbutton;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView ConsultadataGridView;
     }
 }
